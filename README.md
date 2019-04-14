@@ -64,6 +64,8 @@ curl -X GET --header 'Accept: application/json' 'http://127.0.0.1:8090/periodos/
 *fechaCreacion*: Fecha de inicio de la secuencia
 *fechaFin*: Fecha de fin de la secuencia
 *fechas*: Lista de fechas que están en el rango de la fecha que se encuentra en “fechaCreacion” hasta la fecha “fechaFin”
+*fechasFaltantes*: Listado de Fechas que no se encuentran en la lista de "fechas" y estan en el rango de creacion y fin
+
 
 Ejemplo.
 ```json
